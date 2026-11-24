@@ -1,0 +1,33 @@
+<section class="blk-casa" id="casa">
+  <div class="wrap">
+    <div class="blk-casa__cab" data-reveal>
+      <p class="blk-casa__eyebrow">Rua 61, 195 · Jardim Goiás</p>
+      <h2 class="blk-casa__titulo">Uma porta só para o rosto, o corpo, o sorriso e os pés</h2>
+      <p class="blk-casa__lead">A placa ao lado da entrada já resume a casa. Quem vem para a harmonização resolve a limpeza de pele, a podologia ou o cabelo sem atravessar a cidade.</p>
+    </div>
+    <ul class="blk-casa__grade">
+      <li data-reveal style="--d:0ms"><span class="blk-casa__ico"><!--icone:rosto--></span><h3>Estética facial</h3><p>Harmonização, botox, skinbooster, laser e limpeza de pele.</p></li>
+      <li data-reveal style="--d:60ms"><span class="blk-casa__ico"><!--icone:mulher--></span><h3>Estética corporal</h3><p>Criolipólise, radiofrequência e protocolos para gordura e flacidez.</p></li>
+      <li data-reveal style="--d:120ms"><span class="blk-casa__ico"><!--icone:dente--></span><h3>Odontologia</h3><p>Odontologia estética no mesmo endereço da harmonização.</p></li>
+      <li data-reveal style="--d:180ms"><span class="blk-casa__ico"><!--icone:pe--></span><h3>Podologia</h3><p>Cuidado com unhas e pés, com hora marcada.</p></li>
+      <li data-reveal style="--d:240ms"><span class="blk-casa__ico"><!--icone:check--></span><h3>Pós-operatório</h3><p>Acompanhamento depois de cirurgia plástica, para a recuperação seguir o plano.</p></li>
+      <li data-reveal style="--d:300ms"><span class="blk-casa__ico"><!--icone:spa--></span><h3>Salão de beleza</h3><p>Cabelo com o parceiro FC Conceito Cabeleireiros, no mesmo prédio.</p></li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-casa{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 9%,var(--bg))}
+.blk-casa__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-casa__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-casa__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-casa__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-casa__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3);grid-template-columns:1fr 1fr}
+.blk-casa__grade li{padding:var(--sp-3);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 16%,transparent)}
+.blk-casa__ico{display:inline-flex;width:2.2rem;height:2.2rem;color:var(--brand)}
+.blk-casa__ico svg{width:100%;height:100%}
+.blk-casa__grade h3{margin:.6rem 0 .35rem;font-family:var(--f-display);font-size:1.35rem;line-height:1.15;color:var(--ink)}
+.blk-casa__grade p{margin:0;font-size:.92rem;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+@media (max-width:340px){.blk-casa__grade{grid-template-columns:1fr}}
+@media (min-width:900px){.blk-casa__grade{grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}.blk-casa__grade h3{font-size:1.6rem}}
+</style>

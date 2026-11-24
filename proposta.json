@@ -1,0 +1,324 @@
+{
+  "slug": "apolis-estetica",
+  "negocio": {
+    "nome": "Ápolis Estética",
+    "whatsapp": "5562981990396",
+    "telefone": "(62) 98199-0396",
+    "funcionamento": {
+      "seg": "08:00-20:00",
+      "ter": "08:00-20:00",
+      "qua": "08:00-20:00",
+      "qui": "08:00-20:00",
+      "sex": "08:00-20:00",
+      "sab": "08:00-14:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Jardim Goiás · Goiânia",
+        "endereco": "Rua 61, 195 – Jardim Goiás, Goiânia – GO, 74810-280",
+        "telefone": "(62) 98199-0396",
+        "horario": "Segunda a sexta, 8h às 20h · Sábado, 8h às 14h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A6142",
+    "brand2": "#3F444A",
+    "ink": "#26292D",
+    "bg": "#F8F5F1",
+    "pulse": "#C9A27A",
+    "radius": "16px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Botox",
+            "href": "#toxina"
+          },
+          {
+            "texto": "A casa",
+            "href": "#casa"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética avançada · Jardim Goiás",
+        "h1": "Rosto, pele e corpo cuidados no mesmo endereço",
+        "lead": "Harmonização, botox, laser, tratamento capilar e estética corporal na Rua 61, com atendimento individual e um planejamento feito para cada rosto.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/interior.jpg",
+        "imagemAlt": "Interior da Ápolis com piso claro, parede de mármore cinza, poltrona azul, escada de madeira e banco capitonê dourado",
+        "tarja": [
+          "5,0 no Google, 157 avaliações",
+          "Segunda a sexta até as 20h",
+          "Sábado das 8h às 14h",
+          "Entrada e banheiro acessíveis"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Harmonização facial",
+          "Toxina botulínica",
+          "Skinbooster",
+          "Laser Lavieen",
+          "Tratamento capilar",
+          "Criolipólise",
+          "Limpeza de pele"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Ápolis",
+        "texto": [
+          "Cada rosto que chega à Ápolis ganha um planejamento próprio. A ideia não é encher, é devolver proporção e sustentação sem apagar quem a pessoa é.",
+          "Para quem perdeu volume depois de emagrecer muito, a clínica mantém uma técnica de harmonização que usa componentes do próprio sangue do paciente. Leva mais tempo e mais planejamento, e cabe em mais bolsos do que um rosto inteiro de preenchedor."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Ápolis com poltronas azuis e bege, aparador com café e parede de mármore cinza"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da avaliação. Aqui está o que a Ápolis faz hoje.",
+        "itens": [
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Planejamento do rosto inteiro, com rinomodelação e preenchimento labial quando fazem sentido. Os formatos mais difíceis, como o lábio em gaivota, pedem contorno e sustentação, não volume.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas da testa, entre as sobrancelhas e ao redor dos olhos. Pode ser feita em pontos específicos ou no rosto todo.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Skinbooster e limpeza de pele",
+            "descricao": "Hidratação profunda por dentro da pele e limpeza com Hydra Gloss para o viço do rosto e dos lábios.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Manchas no rosto, nas mãos e nos braços",
+            "descricao": "Laser Lavieen para melasma e manchas de sol, e um protocolo próprio da casa para clarear mãos e braços.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Tratamento capilar",
+            "descricao": "Para queda e falhas, em homens e mulheres. Cuida do couro cabeludo e da densidade dos fios, com mais resultado quando começa cedo.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Estética corporal e pós-operatório",
+            "descricao": "Criolipólise para gordura localizada, radiofrequência para flacidez e acompanhamento depois de cirurgia plástica.",
+            "icone": "mulher"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/calendario-toxina.html"
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Os aparelhos da casa",
+        "itens": [
+          {
+            "nome": "Lavieen",
+            "detalhe": "Laser para melasma, manchas e textura da pele",
+            "icone": "laser"
+          },
+          {
+            "nome": "Criolipólise",
+            "detalhe": "Resfriamento da gordura localizada, sem cirurgia",
+            "icone": "gota"
+          },
+          {
+            "nome": "Radiofrequência",
+            "detalhe": "Calor que estimula colágeno contra a flacidez",
+            "icone": "sol"
+          },
+          {
+            "nome": "Hydra Gloss",
+            "detalhe": "Hidratação de rosto e lábios depois da limpeza",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "A recepção lembra por você",
+        "lead": "O número da fachada é o mesmo do WhatsApp. Dá para tirar dúvida, conferir a data da última aplicação e marcar na mesma conversa.",
+        "cta": "Chamar a Ápolis",
+        "contato": "Ápolis Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Fiz botox aí no meio do ano, acho que já está na hora de refazer, né?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Deixa eu ver aqui: sua aplicação foi dia 12 de junho, já faz uns cinco meses."
+          },
+          {
+            "de": "clinica",
+            "texto": "É a época certa para reavaliar. Tenho quinta às 18h ou sábado às 10h, qual fica melhor?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Sábado às 10h!"
+          },
+          {
+            "de": "clinica",
+            "texto": "Marcado. Na sexta te mando um lembrete."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/casa.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Ápolis em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "157",
+            "rotulo": "avaliações de clientes",
+            "contar": 157
+          },
+          {
+            "valor": "6",
+            "rotulo": "áreas de cuidado no mesmo endereço",
+            "contar": 6
+          },
+          {
+            "valor": "66h",
+            "rotulo": "de portas abertas por semana",
+            "contar": 66
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já foi",
+        "itens": [
+          {
+            "texto": "Sou cliente há muitos anos. O atendimento é individual e humanizado, e a clínica está sempre se atualizando, com produtos autorizados pela Anvisa.",
+            "autor": "Jacqueline",
+            "contexto": "Cliente há anos · Google"
+          },
+          {
+            "texto": "A Dra. Áurea Valéria explicou cada etapa com clareza e me passou muita confiança. A clínica é organizada, limpa e acolhedora.",
+            "autor": "Samuel",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Excelente atendimento e cuidado. A Dra. Polyanna é super atenciosa e cuidadosa.",
+            "autor": "Camila",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Quanto tempo dura o efeito do botox?",
+            "r": "Costuma durar de quatro a seis meses, mas muda de pessoa para pessoa. A profissional conversa sobre isso na avaliação e na revisão."
+          },
+          {
+            "p": "Nunca fiz harmonização. Por onde começo?",
+            "r": "Por uma avaliação. A profissional olha o rosto inteiro, explica o que faria e em que ordem, e só então vocês decidem juntas."
+          },
+          {
+            "p": "Vocês atendem homens?",
+            "r": "Atendem. Harmonização masculina e tratamento para queda de cabelo estão entre os procedimentos mais procurados por eles."
+          },
+          {
+            "p": "Abre aos sábados e à noite?",
+            "r": "De segunda a sexta, das 8h às 20h. Aos sábados, das 8h às 14h."
+          },
+          {
+            "p": "A clínica é acessível?",
+            "r": "É. A entrada, o banheiro, os assentos e a vaga têm acesso para cadeira de rodas. E a Ápolis se declara um espaço que acolhe a comunidade LGBTQ+."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Escolha o seu horário pelo WhatsApp",
+        "lead": "Segunda a sexta das 8h às 20h, sábado até as 14h, na Rua 61 do Jardim Goiás.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
